@@ -1,0 +1,47 @@
+button, div, form, input {
+	margin: 2px;
+}
+
+img {
+	max-width: 200px;
+	max-height: 200px;
+}
+
+label {
+    color: darkred;
+    font-size: x-large;
+    text-align: center;
+}
+
+.btn-default {
+    color: #000;
+    font-size: medium;
+    background-color: darkgoldenrod;
+}
+
+.btn-default:hover {
+    background-color: darkgray;
+}
+
+.btn-default:active {
+    background-color: darkred;
+}
+
+body {
+	background-image: url("../images/1781.jpg");
+    font-family: 'Nova Square', cursive;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbotron {
+    font-family: 'Amarante', cursive;
+    text-align: center;
+    max-height: 160px;
+    padding-bottom: 5;
+    padding-top: 4;
+}
+
+
+
+
