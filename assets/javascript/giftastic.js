@@ -1,13 +1,13 @@
 $(document).ready(function(){
 
-    var displayedButtons = ["Harry Potter", "Hermione Granger", "Ron Weasley"];
+    var topics = ["cartoon", "minion", "Bugs Bunny", "pooh", "Marvin the Martian", "Daffy Duck"];
 
     function displayImg(){
 
         $("#display-images").empty();
         var input = $(this).attr("data-name");
         var limit = 10;
-        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + input + "&limit=" + limit + "&api_key=dc6zaTOxFJmzC";   
+        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + input + "&limit=" + limit + "&api_key=jgUAmilUGxP4BWNJ9ewwXOCJaBZVPaMv";   
 
         $.ajax({
             url: queryURL, 
@@ -41,13 +41,13 @@ $(document).ready(function(){
 
         $("#display-buttons").empty();
 
-        for (var i = 0; i < displayedButtons.length; i++){
+        for (var i = 0; i < topics.length; i++){
 
             var newButton = $("<button>") 
             newButton.attr("class", "btn btn-default");
             newButton.attr("id", "input")  
-            newButton.attr("data-name", displayedButtons[i]); 
-            newButton.text(displayedButtons[i]); 
+            newButton.attr("data-name", topics[i]); 
+            newButton.text(topics[i]); 
             $("#display-buttons").append(newButton); 
         }
     }
@@ -73,7 +73,7 @@ $(document).ready(function(){
 
         var input = $("#user-input").val().trim();
         form.reset();
-        displayedButtons.push(input);
+        topics.push(input);
                 
         renderButtons();
 
