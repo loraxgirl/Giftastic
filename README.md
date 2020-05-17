@@ -2,29 +2,28 @@
 
 Homework - Week 06 - APIs
 
-In this assignment, we were required to use the GIPHY API to make a dynamic web page that populates with gifs of our choice. 
+This assignment involved using AJAX and the GIPHY API to make a dynamic web page that populates with gifs related to input search terms. 
 
 ## Getting Started
 
-**Harry Potter Giphy**
+**Cartoon Giphy**
 
 Instructions:
 
-Enter a term into the search box.
-As you enter terms into the search box, buttons will appear above with the term entered and gifs related to that term will appear below.
-If you are not sure of a term to search then feel free to select one of the already populated buttons on the page.
+Enter a term in the search box and press submit.
+The page will reload and your term will appear as one of the buttons you can click on.
+A selection of pre-made buttons related to cartoons are already loaded for you.
 
-The theme is Harry Potter to inspire you to enter a Harry Potter term, but feel free to search any items that is of interest to you.
+You don't *have* to search a cartoon-related term.
 
-Go ahead! Click on the following link to preview the completed assignment.  
-  https://bronzeowl.github.io/giftastic/
+Click on the following link to view the completed assignment.  
+  https://loraxgirl.github.io/Giftastic/
   
 ## Built With
 
-
 * HTML5
 * CSS3
-* [Twitter-Bootstrap](http://getbootstrap.com/) - Framework
+* Bootstrap
 * JavaScript 
-* [jQuery](https://api.jquery.com/) - JavaScript Library
+* jQuery
 * [giphy API](https://developers.giphy.com/docs/)   

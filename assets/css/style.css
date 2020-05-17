@@ -38,6 +38,12 @@ label {
     text-align:                     center;
 }
 
+label2 {
+    color:                          darkred;
+    font-size:                      medium;
+    text-align:                     left;
+}
+
 .btn-default {
     color:                          #000;
     font-size:                      medium;
